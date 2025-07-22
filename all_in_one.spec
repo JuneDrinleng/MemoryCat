@@ -35,7 +35,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     name="python service",
-    console=True,
+    console=False,
     icon="favicon.ico",       # ← 你的 ico 图标
     strip=False,
     upx=False,
